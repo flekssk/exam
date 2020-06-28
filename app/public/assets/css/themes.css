@@ -1,0 +1,15 @@
+.themeOne.mainContainer {
+    background-image: url('/assets/themes/one/back.png');
+}
+
+.themeOne.mainContainer .button {
+    background-color: #707470;
+    border-color: #3cffbe;
+    color: white;
+}
+
+
+.themeTwo.mainContainer {
+    background-image: url('/assets/themes/two/back.png');
+}
+
