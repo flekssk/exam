@@ -32,12 +32,16 @@
                 <li class="button" data-target-url="page2">Menu 2</li>
                 <li class="button" data-target-url="page3">Menu 3</li>
                 <li class="button" data-target-url="page4">Menu 4</li>
-                <li class="button" data-target-url="page5">Game</li>
+                <li class="button" data-target-url="page5">Menu 5</li>
+                <li class="button" data-target-url="game">Game</li>
             </ul>
         </div>
     </div>
 
     <div class="leftColumn">
+        <span class="button shuffleMenu">
+            Перемешать менюшку
+        </span>
     </div>
     <div class="content">
     </div>

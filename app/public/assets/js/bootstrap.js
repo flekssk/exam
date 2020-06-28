@@ -30,3 +30,10 @@ app.bindService(new Theme({
 function popup() {
     return app.getService('popup');
 }
+
+/**
+ * @returns {Menu|Service}
+ */
+function menu() {
+    return app.getService('menu');
+}

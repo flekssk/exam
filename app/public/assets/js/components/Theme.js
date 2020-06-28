@@ -19,11 +19,19 @@ class Theme extends Service {
     }
 
     applyTheme(themeName) {
-        this.disableTheme();
 
-        let themeConfig = this.themes[themeName];
+        let that = this;
+        $('body').addClass('blur');
 
-        $('.mainContainer').addClass(themeConfig.themeClass);
+        setTimeout(function () {
+                that.disableTheme();
+                let themeConfig = that.themes[themeName];
+                $('.mainContainer').addClass(themeConfig.themeClass);
+
+                $('body').removeClass('blur');
+            },
+            500
+        );
     }
 
     createThemeToggle() {
